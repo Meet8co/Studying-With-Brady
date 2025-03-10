@@ -6,123 +6,82 @@
     <title>Study Time</title>
     <style>
         body {
-            font-size: 24px;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
         }
-        
+
         h1 {
             font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
         }
-        
+
         table {
             border-collapse: collapse;
-            width: 100%;
+            width: 90%;
+            margin: auto;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
-        
+
         th, td {
             border: 1px solid black;
-            padding: 10px;
+            padding: 15px;
             text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+            }
+
+            th, td {
+                padding: 10px;
+            }
         }
     </style>
 </head>
 <body>
     <h1>Study Time</h1>
     <table>
-         <tr>
-            <th>Studying</th>
-            <th>Study Description</th>
+        <tr>
+            <th>Game Name</th>
+            <th>Description</th>
+            <th>Status</th>
         </tr>
         <tr>
             <td><a href="https://github.com/Meet8co/Game-Heaven">Github Page</a></td>
             <td>Send input</td>
-        </tr>
-        <tr>
-            <td><a href="https://armsmanufacturingtycoon.vercel.app/">Arms Manufacturing Tycoon</a></td>
-            <td>Works a bit but still in works</td>
-        </tr>
-        <tr>
-            <td><a href="https://magic8ball39.vercel.app/">Magic 8 Ball</a></td>
-            <td>Aks questions. To reset reload page</td>
-        </tr>
-        <tr>
-            <td><a href="https://platformer39.vercel.app/">Platformer</a></td>
-            <td>Ai or Human</td>
-        </tr>
-        <tr>
-            <td><a href="https://the-simpsons-idle-game.vercel.app/">Simpsons Idle Game</a></td>
-            <td>Still in works</td>
-        </tr>
-        <tr>
-            <td><a href="https://family-guy-idle.vercel.app/">Family Guy Idle</a></td>
-            <td>Play a game based on the best show ever</td>
-        </tr>
-        <tr>
-            <td><a href="https://uno39.vercel.app/">Uno</a></td>
-            <td>Pass & Play or against ai</td>
-        </tr>
-        <tr>
-            <td><a href="https://easy-idle-game.vercel.app/">Easy Idle Game</a></td>
-            <td>Really easy to play</td>
-        </tr>
-        <tr>
-            <td><a href="https://school-idle.vercel.app/">School Idle: Academic Tycoon</a></td>
-            <td>Get rich off kids.</td>
-        </tr>
-        <tr>
-            <td><a href="https://cold-war-idle.vercel.app/ ">Cold War Idle</a></td>
-            <td>Beat the USSR or USA.</td>
-        </tr>
-        <tr>
-            <td><a href="https://resistance-the-last-stand.vercel.app/ ">Resistance The Last Stand</a></td>
-            <td>Stop robots with stories.</td>
-        </tr>
-        <tr>
-            <td><a href="https://rentalempire.vercel.app/ ">Rental Empire</a></td>
-            <td>Rent your cars for high amounts of money.</td>
-        </tr>
-        <tr>
-            <td><a href="https://ice-idle.vercel.app/ ">ICE</a></td>
-            <td>Stop illegals.</td>
-        </tr>
-        <tr>
-            <td><a href="https://irsidle.vercel.app/ ">IRS</a></td>
-            <td>Tax money is your income.</td>
-        </tr>
-        <tr>
-            <td><a href="https://idlesurfing.vercel.app/ ">Surfing Idle</a></td>
-            <td>Surf the waves with a click.</td>
-        </tr>
-        <tr>
-            <td><a href="https://paxtonwanted.vercel.app/ ">Women Driver Idle Game</a></td>
-            <td>Paxton Wanted.</td>
-        </tr>
-        <tr>
-            <td><a href="https://v0-new-project-fdf4fcufzb1.vercel.app/ ">Bitcoin Idle Factory</a></td>
-            <td>Get poor with fake bitcoin.</td>
-        </tr>
-        <tr>
-            <td><a href="https://idle-topaz.vercel.app/ ">Space Mining Colony</a></td>
-            <td>Mining in space so much wonder.</td>
-        </tr>
-        <tr>
-            <td><a href="https://v0-new-project-plygepehjpg.vercel.app/">Oil Tycoon</a></td>
-            <td>Oil bro up.</td>
-        </tr>
-        <tr>
-            <td><a href="https://ricefactory.vercel.app/ ">Rice Factory</a></td>
-            <td>Kung Pao.</td>
-        </tr>
-        <tr>
-            <td><a href="https://v0-new-project-mhg94mecmy2-9zsnnc.vercel.app/ ">Idle Steel Factory</a></td>
-            <td>Brady Hiel.</td>
-        </tr>
-        <tr>
-            <td><a href="https://minecraft-idle.vercel.app/">Minecraft Idle</a></td>
-            <td>Offbrand Minecraft.</td>
-        </tr>
-        <tr>
-            <td><a href="https://example.com/game3">Game 3</a></td>
-            <td>Copy</td>
+            <td>Active</td>
         </tr>
     </table>
 </body>
